@@ -6,9 +6,9 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run Jsonplaceholder.com.postman_collection.json --reporters cli,htmlextra --reporter-html-export newman.html"
+    "api-tests-production": "newman run Jsonplaceholder.com.postman_collection.json --reporters cli,junit --reporter-junit-export newman.xml"
   },
-  "author": "Valentin Despa",
+  "author": "Sai Sankar GN",
   "dependencies": {
     "newman": "^3.5.2"
   }
